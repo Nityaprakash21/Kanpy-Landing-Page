@@ -61,9 +61,9 @@ const App: React.FC = () => {
           <div className="max-w-7xl mx-auto flex flex-col items-center text-center text-sm text-gray-500 space-y-6">
 
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
-              <a href="https://www.linkedin.com/company/kanpy/" className="hover:text-white transition-colors">LinkedIn</a>
-              <a href="https://www.instagram.com/kanpy_official?igsh=MWYwMzFrY3pldDUyeA==" className="hover:text-white transition-colors">Instagram</a>
-              <a href="https://x.com/KanpyOfficial" className="hover:text-white transition-colors">Twitter</a>
+              <a href="https://www.linkedin.com/company/kanpy/" className="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.instagram.com/kanpy_official?igsh=MWYwMzFrY3pldDUyeA==" className="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://x.com/KanpyOfficial" className="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">Twitter</a>
               <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
               <Link to="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
               <a href="mailto:info@kanpy.in" className="hover:text-white transition-colors">info@kanpy.in</a>
