@@ -184,7 +184,7 @@ export const caseStudiesData: CaseStudy[] = [
         title: 'Content Strategy & Creative',
         description: 'Handled content planning, post creation, and clean/premium visual direction.',
         result: 'Repeatable engine, not one-off posts.',
-        image: "https://res.cloudinary.com/dwrev9agk/image/upload/v1771786192/6_bow4x4.jpg"
+        image: "https://res.cloudinary.com/dwrev9agk/image/upload/v1771786191/8_eiccjm.jpg"
       }
     ],
     impact: [
