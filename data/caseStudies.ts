@@ -1,28 +1,3 @@
-import csimg1 from '../src/assets/CS1/1.png';
-import csimg2 from '../src/assets/CS1/2.jpg';
-import csimg3 from '../src/assets/CS1/3.png';
-import csimg4 from '../src/assets/CS1/4.png';
-import csimg5 from '../src/assets/CS1/5.png';
-import csimg6 from '../src/assets/CS1/6.png';
-import csimg7 from '../src/assets/CS1/7.png';
-import csimg8 from '../src/assets/CS1/8.png';
-import cs2img1 from '../src/assets/CS2/1.png';
-import cs2img2 from '../src/assets/CS2/2.jpeg';
-import cs2img3 from '../src/assets/CS2/3.png';
-import cs2img4 from '../src/assets/CS2/4.png';
-import cs2img5 from '../src/assets/CS2/5.png';
-import cs2img6 from '../src/assets/CS2/6.jpeg';
-import cs2img7 from '../src/assets/CS2/7.jpeg';
-import cs2img8 from '../src/assets/CS2/8.jpeg';
-import cs3img1 from '../src/assets/CS3/1.png';
-import cs3img2 from '../src/assets/CS3/2.jpeg';
-import cs3img3 from '../src/assets/CS3/3.jpeg';
-import cs3img4 from '../src/assets/CS3/4.png';
-import cs3img5 from '../src/assets/CS3/5.png';
-import cs3img6 from '../src/assets/CS3/6.jpeg';
-import cs3img7 from '../src/assets/CS3/7.png';
-import cs3img8 from '../src/assets/CS3/8.jpeg';
-
 export interface CaseStudy {
   slug: string;
   title: string;
