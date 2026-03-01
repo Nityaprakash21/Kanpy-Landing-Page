@@ -13,19 +13,22 @@ const AISystems: React.FC = () => {
       title: "Storyteller GPT",
       description: "Transforms raw ideas into compelling narratives designed for founders, brands, and leaders.",
       icon: <MessageSquare className="w-5 h-5" />,
-      tag: "Consistency"
+      tag: "Consistency",
+      link: "https://chatgpt.com/g/g-699469baa8dc8191a477a7f9b367c919-storyteller-gpt"
     },
     {
       title: "Viral GPT",
       description: "Analyzes content patterns and predicts virality signals to create high-impact posts in seconds.",
       icon: <Search className="w-5 h-5" />,
-      tag: "Strategy"
+      tag: "Strategy",
+      link: "https://chatgpt.com/g/g-699b41eb2c9081919732e3cfd10ba19e-viralgpt"
     },
     {
       title: "TrendIdentifier GPT",
       description: "Finds emerging trends in your niche before anyone else does giving you first-mover advantage.",
       icon: <Share2 className="w-5 h-5" />,
-      tag: "Distribution"
+      tag: "Distribution",
+      link: "https://chatgpt.com/g/g-69a1d2fb7a808191a4efaacff807e1a5-trend-identifier-gpt"
     }
   ];
 
@@ -34,19 +37,22 @@ const AISystems: React.FC = () => {
       title: "Autonomous Lead Gen",
       description: "Scours digital ecosystems to identify, qualify, and initiate contact with high-intent prospects.",
       icon: <Workflow className="w-5 h-5" />,
-      tag: "Autonomous"
+      tag: "Autonomous",
+      link: ""
     },
     {
       title: "Sentiment Monitor",
       description: "Active 24/7. Listens to industry discourse and triggers real-time strategic response alerts.",
       icon: <Cpu className="w-5 h-5" />,
-      tag: "Real-time"
+      tag: "Real-time",
+      link: ""
     },
     {
       title: "Campaign Automator",
       description: "Connects your stack (CRM, Ads, Social) to execute complex marketing funnels without manual touch.",
       icon: <Zap className="w-5 h-5" />,
-      tag: "Integration"
+      tag: "Integration",
+      link: ""
     }
   ];
 
@@ -126,10 +132,22 @@ const AISystems: React.FC = () => {
                   </p>
 
                   <div className="mt-12 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                      <button className="text-[10px] uppercase tracking-widest text-[#A3E635] font-bold flex items-center space-x-2">
-                        <span>{activeTab === 'agents' ? 'In Progress' : 'View Capability'}</span>
-                        <div className="w-1 h-1 rounded-full bg-[#A3E635]" />
-                      </button>
+                      {activeTab === 'agents' ? (
+                        <button className="text-[10px] uppercase tracking-widest text-[#A3E635] font-bold flex items-center space-x-2">
+                          <span>In Progress</span>
+                          <div className="w-1 h-1 rounded-full bg-[#A3E635]" />
+                        </button>
+                      ) : (
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[10px] uppercase tracking-widest text-[#A3E635] font-bold flex items-center space-x-2"
+                        >
+                          <span>View Capability</span>
+                          <div className="w-1 h-1 rounded-full bg-[#A3E635]" />
+                        </a>
+                      )}
                   </div>
                 </div>
               ))}
