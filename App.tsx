@@ -70,8 +70,20 @@ const App: React.FC = () => {
               <a href="tel:+918233668773" className="hover:text-white transition-colors">Contact: +91 82336 68773, +91 74260 79381</a>
             </div>
 
-            <div>
-              © 2026 Kanpy. All rights reserved.
+            <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center">
+              <span>© 2026 Kanpy. All rights reserved.</span>
+              <span className="hidden sm:inline">•</span>
+              <span>
+                Developed by{' '}
+                <a
+                  href="https://nitya-devs.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white text-gray-400 transition-colors underline underline-offset-4 decoration-gray-600 hover:decoration-white"
+                >
+                  Nitya Prakash Pattanaik
+                </a>
+              </span>
             </div>
           </div>
         </footer>
